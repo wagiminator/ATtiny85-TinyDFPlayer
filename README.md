@@ -14,3 +14,4 @@ The firmware is written for the folder-play function of the DFPlayer. This means
 Project on EasyEDA: https://easyeda.com/wagiminator/attiny85-tinydfplayer-smd
 
 ![tinyDFPlayer_x.jpg](https://image.easyeda.com/pullimage/HSA2ykJ3fXkw0Tz040Td4EvquSE8kogK7a93GliZ.jpeg)
+![IMG_20200331_164823_BURST001_COVER_x.jpg](https://image.easyeda.com/pullimage/Zn4gdkJaRZgqlnwEX9lvwN3Thpr34WdWn1U5Y6qf.jpeg)
