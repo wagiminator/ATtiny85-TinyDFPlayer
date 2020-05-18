@@ -3,9 +3,7 @@
 // MP3-Player using DFPlayer mini, ATtiny85, I2C OLED,
 // potentiometer and three buttons.
 //
-// Clockspeed 8 MHz internal
 //
-// 2019 by Stefan Wagner
 //                                 +-\/-+
 // Buttons --------- A0 (D5) PB5  1|    |8  Vcc
 // Poti ------------ A3 (D3) PB3  2|    |7  PB2 (D2) A1 ---- OLED (SCK)
@@ -13,8 +11,13 @@
 //                           GND  4|    |5  PB0 (D0) ------- OLED (SDA)
 //                                 +----+
 //
+// Clockspeed 8 MHz internal
+//
 // RESET pin is used as a weak analog input for the buttons. You don't
 // need to disable the RESET pin as the voltage won't go below 40% of Vcc.
+//
+// 2019 by Stefan Wagner (https://easyeda.com/wagiminator)
+// License: http://creativecommons.org/licenses/by-sa/3.0/
 
 
 // Libraries
