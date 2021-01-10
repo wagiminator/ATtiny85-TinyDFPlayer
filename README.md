@@ -35,7 +35,7 @@ Solder all of the components onto the circuit board. Connect a 3.7 V Li-Po batte
 
 ![pic3.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-TinyDFPlayer/master/documentation/TinyDFPlayer_pic3.jpg)
 
-If you want to use the 3D-printed case, first install a [70 * 40 mm speaker](https://aliexpress.com/wholesale?SearchText=speaker+4070) in the lower part of the housing and screw it in with 2.3 * 5 mm self-tapping screws. Place an approx. 1 cm thick piece of foam behind the speaker, which fits tightly against the outer walls of the housing. This improves the sound quality significantly and separates the battery from the speaker. Then place the battery. Click the upper part of the housing on the lower part and screw on the TinyDFPlayer Board with 2.3 * 5 mm self-tapping screws.
+If you want to use the 3D-printed case, first install a [70 * 40 mm speaker](https://aliexpress.com/wholesale?SearchText=speaker+4070) in the lower part of the housing and screw it in with 2.3 * 5 mm self-tapping screws. Place an approx. 1 cm thick piece of foam behind the speaker, which fits tightly against the outer walls of the housing. This improves the sound quality significantly and separates the battery from the speaker. Then place the battery. Click the upper part of the housing on the lower part and screw on the TinyDFPlayer Board with 2.3 * 5 mm self-tapping screws. Glue four rubber feet to the underside of the player.
 
 ![pic4.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-TinyDFPlayer/master/documentation/TinyDFPlayer_pic4.jpg)
 ![pic5.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-TinyDFPlayer/master/documentation/TinyDFPlayer_pic5.jpg)
