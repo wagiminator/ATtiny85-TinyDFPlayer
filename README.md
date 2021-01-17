@@ -70,7 +70,15 @@ If you want to use the 3D-printed case, first install a [70 * 40 mm speaker](htt
 
 # Operating Instructions
 ## Preparing the SD-Card
-Micro SD cards (TF cards) with a maximum of 32 GB are supported. The card should be formatted in the FAT32 file system. The firmware is written for the folder-play function of the DFPlayer. This means you have to create folders named 01, 02, 03, ... in the  SD card root and inside the folders you have to name the audio files 001.mp3, 002.mp3, ... The maximum number of folders is 99 and the maximum number of files per folder is 255. Insert the SD card into the corresponding slot of the DFPlayer Mini module.
+Micro SD cards (TF cards) with a maximum of 32 GB are supported. The card should be formatted in the FAT32 file system. The firmware is written for the folder-play function of the DFPlayer. This means you have to create folders named 01, 02, 03, ... in the  SD card root and inside the folders you have to name the audio files 001.mp3, 002.mp3, ... The maximum number of folders is 99 and the maximum number of files per folder is 255. Don't leave gaps in the folders or file numbers. After the three-digit number of the MP3 files, the title name can be added for better identification, e.g. "003_MySong.mp3". Note that the title names cannot be read out and transmitted by the MiniDFPlayer module, so unfortunately it is not possible to display the title names.
+
+There must not be any unnecessary files on the SD card, such as those stored there by MacOS (e.g. Spotlight). Better take Linux or Windows to write to the SD card. Under MacOS you can try to clean up with the following command:
+
+```
+$ dot_clean /Volumes/SD-Card
+```
+
+Insert the SD card into the corresponding slot of the DFPlayer Mini module.
 
 ## Operating the TinyDFPlayer
 The device is switched on with the power switch. The two outer buttons are used to switch files and folders. The middle button is used to switch between pause and play. The wheel potentiometer is for choosing the volume. All necessary information is displayed on the OLED. To charge the battery, connect a 5V power supply via the micro USB port.
