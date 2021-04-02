@@ -12,7 +12,7 @@ ATtiny controlled and LiPo battery powered MP3-Player using the DFPlayerMini mod
 You can directly connect a 3.7 V Li-Po battery and a 3 W / 4 Ohm speaker to the board.
 
 - Project Video (YouTube): https://youtu.be/QYjr8UXhs8I
-- Project Files (EasyEDA): https://easyeda.com/wagiminator/attiny85-tinydfplayer-smd
+- Design Files (EasyEDA): https://easyeda.com/wagiminator/attiny85-tinydfplayer-smd
 
 ![pic1.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-TinyDFPlayer/master/documentation/TinyDFPlayer_pic1.jpg)
 
@@ -40,6 +40,9 @@ If you want to use the 3D-printed case, first install a [70 * 40 mm speaker](htt
 ![pic4.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-TinyDFPlayer/master/documentation/TinyDFPlayer_pic4.jpg)
 ![pic5.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-TinyDFPlayer/master/documentation/TinyDFPlayer_pic5.jpg)
 ![pic6.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-TinyDFPlayer/master/documentation/TinyDFPlayer_pic6.jpg)
+
+## Calibrating ATtiny85's Internal Oscillator
+Error-free serial communication with the DFPlayer module requires precise timing. Usually the internal oscillator of the ATtiny85 used for this is sufficiently accurate (at least I haven't had any problems so far). However, the serial communication may not work due to an imprecise oscillator. It is therefore recommended to calibrate it manually. There are numerous instructions on how to do this on the [Internet](http://ernstc.dk/arduino/tinytuner.html). Alternatively, the [TinyCalibrator](https://github.com/wagiminator/ATtiny84-TinyCalibrator) can be used for this.
 
 ## Compiling and Uploading the Software
 ### If using the Arduino IDE
@@ -84,3 +87,9 @@ Insert the SD card into the corresponding slot of the DFPlayer Mini module.
 The device is switched on with the power switch. The two outer buttons are used to switch files and folders. The middle button is used to switch between pause and play. The wheel potentiometer is for choosing the volume. All necessary information is displayed on the OLED. To charge the battery, connect a 5V power supply via the micro USB port.
 
 ![pic2.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-TinyDFPlayer/master/documentation/TinyDFPlayer_pic2.jpg)
+
+# License
+![license.png](https://i.creativecommons.org/l/by-sa/3.0/88x31.png)
+
+This work is licensed under Creative Commons Attribution-ShareAlike 3.0 Unported License. 
+(http://creativecommons.org/licenses/by-sa/3.0/)
