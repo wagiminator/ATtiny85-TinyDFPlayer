@@ -30,6 +30,9 @@ For the battery protection (overcharge, overdischarge, overcurrent and short cir
 The user interface utilizes three buttons, a wheel potentiometer and a [128x64 pixels OLED display](http://aliexpress.com/wholesale?SearchText=128+64+0.96+oled+new+4pin). An [ATtiny85](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf) microcontroller brings it all together.
 
 # Building Instructions
+## Calibrating ATtiny85's Internal Oscillator
+Error-free serial communication with the DFPlayer module requires precise timing. Usually the internal oscillator of the ATtiny85 used for this is sufficiently accurate (at least I haven't had any problems so far). However, the serial communication may not work due to an imprecise oscillator. It is therefore recommended to calibrate it manually. There are numerous instructions on how to do this on the [Internet](http://ernstc.dk/arduino/tinytuner.html). Alternatively, the [TinyCalibrator](https://github.com/wagiminator/ATtiny84-TinyCalibrator) can be used for this.
+
 ## Building the TinyDFPlayer
 Solder all of the components onto the circuit board. Connect a 3.7 V Li-Po battery and a 3 W / 4 Ohm speaker to the corresponding pin headers.
 
@@ -40,9 +43,6 @@ If you want to use the 3D-printed case, first install a [70 * 40 mm speaker](htt
 ![pic4.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-TinyDFPlayer/master/documentation/TinyDFPlayer_pic4.jpg)
 ![pic5.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-TinyDFPlayer/master/documentation/TinyDFPlayer_pic5.jpg)
 ![pic6.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-TinyDFPlayer/master/documentation/TinyDFPlayer_pic6.jpg)
-
-## Calibrating ATtiny85's Internal Oscillator
-Error-free serial communication with the DFPlayer module requires precise timing. Usually the internal oscillator of the ATtiny85 used for this is sufficiently accurate (at least I haven't had any problems so far). However, the serial communication may not work due to an imprecise oscillator. It is therefore recommended to calibrate it manually. There are numerous instructions on how to do this on the [Internet](http://ernstc.dk/arduino/tinytuner.html). Alternatively, the [TinyCalibrator](https://github.com/wagiminator/ATtiny84-TinyCalibrator) can be used for this.
 
 ## Compiling and Uploading the Software
 ### If using the Arduino IDE
