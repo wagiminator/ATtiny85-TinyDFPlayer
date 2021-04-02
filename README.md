@@ -18,7 +18,7 @@ You can directly connect a 3.7 V Li-Po battery and a 3 W / 4 Ohm speaker to the 
 
 # Hardware
 ## DFPlayer Mini Module
-The [DFPLayer Mini module](https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299) is a serial MP3 module provides the perfect integrated MP3, WMV hardware decoding. While the software supports TF card driver, supports FAT16, FAT32 file system. Through simple serial commands to specify music playing, as well as how to play music and other functions, without the cumbersome underlying operating, easy to use, stable and reliable are the most important features of this module.
+The [DFPLayer Mini module](https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299) is a serial MP3 module that offers the perfect built-in MP3 hardware decoding. It supports TF cards with FAT16 and FAT32 file systems. Music playback as well as other functions can be controlled by simple serial commands without cumbersome software implementation. The main features of the module are easy to use, stable and reliable functions.
 
 ## Battery Charger
 For battery charging the [TP4056](https://datasheet.lcsc.com/szlcsc/1904031009_TPOWER-TP4056_C382139.pdf) is used. The TP4056 is a complete constant-current/constant-voltage linear charger for single cell lithium-ion batteries. The charge voltage is fixed at 4.2V and the charge current (max 1000mA) can be programmed externally with a single resistor (R6). The TP4056 automatically terminates the charge cycle when the charge current drops to 1/10th the programmed value after the final float voltage is reached. Other features include current monitor, under voltage lockout and automatic recharge. Charging is done via the built-in [Micro USB connector](https://aliexpress.com/wholesale?SearchText=micro+usb+2pin+dip).
